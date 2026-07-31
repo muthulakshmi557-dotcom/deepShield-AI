@@ -11,3 +11,6 @@ else:
     print("Height:", image.shape[0])
     print("Width :", image.shape[1])
     print("Channels:", image.shape[2])
+    cv2.imshow("Loaded Image", image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
